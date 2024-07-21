@@ -17,14 +17,17 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .apresentacao__conteudo {
-    width: 482px;
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 } 
 
 .apresentacao__conteudo__titulo {
@@ -34,5 +37,23 @@ body {
 
 .apresentacao__conteudo__paragrafo {
     font-size: 24px;    
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__botoes {
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: black;
     font-family: "Montserrat", sans-serif;
 }
